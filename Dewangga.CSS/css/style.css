@@ -1,0 +1,39 @@
+.card{
+    border: 2px solid black;
+    margin: 60px;
+    background-color: lavender;
+}
+.img .container .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.profile{
+ border-radius: 100%;
+}
+
+.name .container .namabisnis{
+    text-align: center;
+}
+.list .container .listbisnis{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 60px;
+}
+.list .container .listbisnis button{
+    width: 23em;
+    height: 3em;
+    border-radius: 10px;
+}
+.list .container .listbisnis button:hover{
+    background-color: white;
+}
+.sosialmedia .container .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
